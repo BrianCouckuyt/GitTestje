@@ -24,5 +24,11 @@ namespace WpfGitTest
         {
             InitializeComponent();
         }
+
+        private void BtnBericht_Click(object sender, RoutedEventArgs e)
+        {
+            LbBericht.Items.Add("Welkom!");
+            LbBericht.Items.Add("Welcome!");
+        }
     }
 }
